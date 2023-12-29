@@ -3,7 +3,7 @@ body {
 	font-family: Roboto, sans-serif;
 	margin: 0px;
 	padding: 0px;
-	background: url(img\Img_1522.jpg) no-repeat top center;
+	background: url(..\img\Img_1522.jpg) no-repeat top center;
 }
 
 header {
