@@ -1,9 +1,13 @@
+html {
+	background-color: #000000;
+	padding: 5%;
+
+}
 
 body {
 	font-family: Roboto, sans-serif;
 	margin: 0px;
 	padding: 0px;
-	background: url(../img/Img_1522.jpg) no-repeat top center;
 }
 
 header {
@@ -12,48 +16,36 @@ header {
 	margin: 0px;
 	padding: 0px;
 }
-
-section.transparent {
-	width: 100%;
-	min-height: 100vh;
-	background-color: rgba(0,0,0,0.9);
-}
-
-header h1,header h2,header h3 {
-	color: #ffffff;
-	padding-left: 5%;
-	font-weight: normal;
+section {
+	background-color: #ffffff;
 	margin: 0px;
 }
 
-header h1 {
-	padding-top: 10%;
-	padding-bottom: 30px;
-	font-size: 2.5em;
-}
-
-header h2 {
-	font-size: 1.75em;
-}
-
-header h3 {
-	font-size: 1.5em;
-}
-
-header h2,header h3 {
-	font-style: italic;
-	padding-bottom: 10px;
+section img {
+	width: 100%;
 }
 
 nav {
+	display: flex;
+	flex-direction: row;
 	margin: 0px;	
 	width: 100%;
+	height: 50px;
+	background-color: #ffffff;
+}
+
+nav h1 {
+	display: flex;
+	flex-direction: row;
+	margin: 0px;	
+	width: 100%;
+	padding: 10px;
 }
 
 nav > ul {
 	display: flex;
 	flex-direction: row;
-	width: 40%;
+	width: 75%;
 	float: right;
 	margin: 0px;
 	padding: 0px;
@@ -66,14 +58,22 @@ nav > ul > li {
 	margin: 0px;
 	padding: 1em;
 	font-size: 14px;
-	color: #ffffff;
+	display: block;
+	font-weight: bold;
 }
 
 nav > ul > li a {
-	color: #ffffff;
 	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #000000;
 }
 
 nav > ul > li:hover {
+	font-style: italic;
+}
+
+nav > ul > li.selected {
 	font-style: italic;
 }
