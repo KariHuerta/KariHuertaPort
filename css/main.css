@@ -139,6 +139,15 @@ section#subHome {
 	display: flex;
 	flex-direction: row-reverse;
 	vertical-align: center;
+	width: 100%;
+	justify-content: center;
+	margin-top: 3%;
+}
+
+section#subHome p {
+	width: 40%;
+	padding: 2%;
+	text-align: center;
 }
 
 /* About Me Page */
