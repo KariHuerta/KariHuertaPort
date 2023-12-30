@@ -18,6 +18,7 @@ section {
 	height: 100%;
 	display: block;
 	position: relative;
+	background: url(../img/Img_1522.jpg) no-repeat top center;
 }
 
 section > img {
@@ -28,13 +29,13 @@ section > img {
 
 section div.homepageDiv {
 	position: relative;
-	width: 40%;
+	width: 90%;
 	padding: 5%;
 	background-color: rgba(0,0,0,0.8);
 	display: block;
 	color: #ffffff;
 	text-align: center;
-	min-height: 90%;
+	min-height: 87%;
 	float: right;
 }
 
