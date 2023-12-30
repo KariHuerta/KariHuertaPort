@@ -12,19 +12,14 @@ body {
 	display: block;
 }
 
-section {
+/* Home Page Only */
+section.image {
 	margin: 0px;
 	width: 100%;
-	height: 100%;
+	height: 95%;
 	display: block;
 	position: relative;
 	background: url(../img/Img_1522.jpg) no-repeat top center;
-}
-
-section > img {
-	width: 100%;
-	position: absolute;
-	height: auto;
 }
 
 section div.homepageDiv {
@@ -49,12 +44,13 @@ section div#homepageDiv span {
 	text-align: center;
 }
 
+/* Navigation on All Pages */
 nav {
 	display: flex;
 	flex-direction: row;
 	margin: 0px;	
 	width: 100%;
-	height: 5vh;
+	height: 5%;
 	background-color: #ffffff;
 }
 
@@ -100,4 +96,62 @@ nav > ul > li:hover {
 
 nav > ul > li.selected {
 	font-style: italic;
+}
+
+/* About Me Page */
+section.main {
+	text-align: center;
+	height: 400px;
+}
+section.main img {
+	width: 100%;
+	height: 300px;
+	object-fit: none;
+}
+
+section.sub {
+	width: 100%;
+}
+
+section.sub h4,section.sub h5 {
+	width: 100%;
+	text-align: center;
+}
+
+section.sub ul {
+	list-style-type: none;
+	padding: 0;
+	padding-left: 4px;
+	width: 100%;
+}
+
+section.sub ul li {
+	padding-left: 10px;
+	padding-right: 13px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+section#skills div.container div:first-of-type ul li,section#passions div:first-of-type ul li{
+border-right: 3px solid #0F9367;
+}
+
+section#skills div.container,section#passions {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+section#skills div.container div,section#passions div {
+	width: 50%;
+}
+
+section#skills div.container div:first-of-type,section#skills div.container div:first-of-type h5,section#passions div:first-of-type,section#passions div:first-of-type h4 {
+	text-align: right;
+}
+
+section#skills div.container div:last-of-type h5,section#passions div:last-of-type h4 {
+	text-align: left;
+	padding-left: 25px;
 }
