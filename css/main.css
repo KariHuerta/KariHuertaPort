@@ -59,7 +59,7 @@ nav h1 {
 	flex-direction: row;
 	margin: 0px;	
 	width: 100%;
-	padding: 15px;
+	padding: 10px;
 }
 
 nav > ul {
@@ -69,7 +69,7 @@ nav > ul {
 	float: right;
 	margin: 0px;
 	padding: 0px;
-	padding-top: 10px;
+	padding-top: 15px;
 }
 
 nav > ul > li {
@@ -77,7 +77,6 @@ nav > ul > li {
 	width: 25%;
 	text-align: center;
 	margin: 0px;
-	padding: 1em;
 	font-size: 14px;
 	display: block;
 	font-weight: bold;
@@ -102,14 +101,27 @@ nav > ul > li.selected {
 /* About Me Page */
 section.main {
 	text-align: center;
-	height: 470px;
-	background-color: #000000;
-	color: #ffffff;
+	height: 260px;
 }
-section.main img {
+
+section#aboutMe {
+	background: url(../img/IMG_1531.JPG) no-repeat center center ;
+}
+
+section#gallery {
+	background: url(../img/IMG_1529.JPG) no-repeat top right ;
+}
+
+section#contact {
+	background: url(../img/IMG_1524.JPG) no-repeat center center ;
+}
+
+section.main div.transparent {
 	width: 100%;
-	height: 360px;
-	object-fit: none;
+	height: 180px;
+	background-color: rgba(0,0,0,0.6);
+	color: #ffffff;
+	padding-top: 80px;
 }
 
 section.container {
