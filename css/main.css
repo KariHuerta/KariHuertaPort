@@ -224,3 +224,19 @@ section.sub table tbody tr td:last-of-type {
 	text-align: left;
 	padding-left: 10px;
 }
+
+
+/* Contact */
+section#contactContent {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	margin-top: 3%;
+}
+
+div#contactInfo {
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+}
