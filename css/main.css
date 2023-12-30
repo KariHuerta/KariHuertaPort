@@ -98,7 +98,7 @@ nav > ul > li.selected {
 	font-style: italic;
 }
 
-/* About Me Page */
+/*Section Main */
 section.main {
 	text-align: center;
 	height: 260px;
@@ -128,6 +128,15 @@ section.main div.transparent {
 	padding-top: 80px;
 }
 
+/* Home Page */
+section#subHome {
+	display: flex;
+	flex-direction: row-reverse;
+	vertical-align: center;
+}
+
+/* About Me Page */
+
 section.container {
 	display: flex;
 	flex-direction: row;
@@ -136,6 +145,14 @@ section.container {
 section.container div.separate:first-of-type {
 	display: block;
 	width: 10%;
+	margin: auto;
+	margin-left: 0;
+	margin-right: 8%;
+}
+
+section.container div.separate:nth-of-type(2) {
+	display: block;
+	width: 30%;
 	margin: auto;
 	margin-left: 0;
 	margin-right: 0;
@@ -147,7 +164,7 @@ img[alt="linkedInPhoto"] {
 }
 
 section.container div.separate:last-of-type {
-	width: 60%;
+	width: 50%;
 }
 
 section.sub {
