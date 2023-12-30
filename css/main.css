@@ -104,6 +104,10 @@ section.main {
 	height: 260px;
 }
 
+section#home {
+	background: url(../img/Img_1522.JPG) no-repeat center center ;
+}
+
 section#aboutMe {
 	background: url(../img/IMG_1531.JPG) no-repeat center center ;
 }
