@@ -157,16 +157,21 @@ section.container {
 	flex-direction: row;
 }
 
+section.container div.separate {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 section.container div.separate:first-of-type {
 	display: block;
-	width: 10%;
 	margin: auto;
-	margin-left: 0;
-	margin-right: 8%;
+	/* margin-left: 0; */
+	/* margin-right: 0; */
 }
 
 section.container div.separate:nth-of-type(2) {
-	display: block;
 	width: 30%;
 	margin: auto;
 	margin-left: 0;
@@ -182,17 +187,14 @@ section.container div.separate:last-of-type {
 	width: 50%;
 }
 
-section.sub {
-	width: 100%;
-}
-
-section.sub h4,section.sub h5 {
-	width: 100%;
-	text-align: center;
-}
-
-section#skills h4 {
-	margin-bottom: 0;
+div.separate input[type="button"] {
+	background-color: #06194C;
+	color: #ffffff;
+	padding: 15px;
+	margin-top: 5px;
+	border-radius: 10px;
+	width: 80%;
+	font-weight: bold;
 }
 
 h5 {
