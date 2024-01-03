@@ -150,6 +150,11 @@ section#subHome p {
 	text-align: center;
 }
 
+/* Hidden About Me */
+.aboutMeDetails {
+	display: none;
+}
+
 /* About Me Page */
 
 section.container {
