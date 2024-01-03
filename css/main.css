@@ -167,8 +167,6 @@ section.container div.separate {
 section.container div.separate:first-of-type {
 	display: block;
 	margin: auto;
-	/* margin-left: 0; */
-	/* margin-right: 0; */
 }
 
 section.container div.separate:nth-of-type(2) {
