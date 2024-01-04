@@ -204,10 +204,12 @@ h5 {
 	font-size: 11pt;
 }
 
-td.detailHeader {
+th.detailHeader {
 	background-color: #06194C;
 	color: #ffffff;
 	padding: 10px;
+	font-weight: normal;
+	border-top-right-radius: 10px;
 }
 
 td.detailItem {
@@ -230,6 +232,9 @@ div.aboutMeDetails p {
 	border: 1px solid #06194C;
 	padding: 10px;
 	margin-top: 0;
+	color: #06194C;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 
