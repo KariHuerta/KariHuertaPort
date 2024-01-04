@@ -217,6 +217,21 @@ td.detailItem {
 	color: #06194C;
 }
 
+div.aboutMeDetails h3 {
+	background-color: #06194C;
+	color: #ffffff;
+	padding: 10px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+
+div.aboutMeDetails p {
+	border: 1px solid #06194C;
+	padding: 10px;
+	margin-top: 0;
+}
+
 
 /* Contact */
 section#contactContent {
