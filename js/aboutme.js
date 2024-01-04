@@ -15,12 +15,12 @@ $(document).ready(function() {
 function defaultSettings()
 {
 	$('div.details > *').hide();
-	$('div.buttons input[type="button"]').css({ "background-color":"#06194C" });
+	$('div.buttons input[type="button"]').css({ "background-color":"#06194C","color":"#ffffff","font-weight":"normal" });
 }
 
 function hideShowDetails(elementID)
 {
 	defaultSettings();
-	$('input#'+elementID).css({ "background-color":"#0C339B" });
+	$('input#'+elementID).css({ "background-color":"#ffffff","color":"#06194C","font-weight":"bold" });
 	$('div.details [id*="'+elementID+'"]').show();
 }

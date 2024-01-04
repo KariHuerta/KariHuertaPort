@@ -14,12 +14,12 @@ $(document).ready(function() {
 function defaultSettings()
 {
 	$('div.projectDet').hide();
-	$('section#projects ul li').css({ "background-color":"#06194C" });
+	$('section#projects ul li').css({ "background-color":"#06194C","color":"#ffffff","font-weight":"normal" });
 }
 
 function hideShowDetails(elementID)
 {
 	defaultSettings();
-	$('li#'+elementID).css({ "background-color":"#0C339B" });
+	$('li#'+elementID).css({ "background-color":"#ffffff","color":"#06194C","font-weight":"bold" });
 	$('div[id="'+elementID+'Data"]').show();
 }
