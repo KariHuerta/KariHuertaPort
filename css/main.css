@@ -148,6 +148,7 @@ section#subHome p {
 	width: 40%;
 	padding: 2%;
 	text-align: center;
+	color: #06194C;
 }
 
 /* Hidden About Me */
@@ -243,6 +244,7 @@ div.aboutMeDetails p {
 section#projects {
 	display: flex;
 	flex-direction: row;
+	background-color: #ffffff;
 }
 
 section#projects ul {
@@ -265,7 +267,13 @@ section#projects ul li {
 
 div.projectDet {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+}
+
+iv.projectDet p {
+	margin: 0;
 }
 
 div.projectDet img {
