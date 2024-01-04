@@ -160,6 +160,7 @@ section#subHome p {
 section.container {
 	display: flex;
 	flex-direction: row;
+	margin-top: 20px;
 }
 
 section.container div.separate {
@@ -187,7 +188,7 @@ img[alt="linkedInPhoto"] {
 }
 
 section.container div.separate:last-of-type {
-	width: 50%;
+	width: 65%;
 }
 
 div.separate input[type="button"] {
@@ -210,6 +211,7 @@ th.detailHeader {
 	padding: 10px;
 	font-weight: normal;
 	border-top-right-radius: 10px;
+	width: 33%;
 }
 
 td.detailItem {
@@ -244,11 +246,38 @@ section#contactContent {
 	flex-direction: row;
 	width: 100%;
 	justify-content: center;
-	margin-top: 3%;
+	margin-top: 2%;
 }
 
 div#contactInfo {
 	display: flex;
 	flex-direction: column;
 	padding: 2%;
+	padding-top: 0;
+}
+
+div.container {
+	margin-top: 10px;
+}
+
+div.container h3 {
+	background-color: #06194C;
+	padding: 10px;
+	color: #ffffff;
+	margin: 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-weight: normal;
+}
+
+div.container a {
+	color: #06194C;
+}
+
+div.container div {
+	margin: 0;
+	border: 1px solid #06194C;
+	padding: 10px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
