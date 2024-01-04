@@ -8,6 +8,8 @@ $(document).ready(function() {
 		hideShowDetails(buttonId);	
 	});
 	
+	$('input.aboutButton:first-of-type').click();
+	
 });
 
 function defaultSettings()

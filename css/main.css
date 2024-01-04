@@ -239,6 +239,39 @@ div.aboutMeDetails p {
 	border-bottom-right-radius: 5px;
 }
 
+/* Projects */
+section#projects {
+	display: flex;
+	flex-direction: row;
+}
+
+section#projects ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	width: 90%;
+}
+
+section#projects ul li {
+	width: 32%;
+	padding: 1%;
+	text-align: center;
+	background-color: #06194C;
+	color: #ffffff;
+}
+
+div.projectDet {
+	display: flex;
+	justify-content: center;
+}
+
+div.projectDet img {
+	max-width: 80%;
+}
+
+img[alt="dashboard"] {
+	max-height: 650px;
+}
 
 /* Contact */
 section#contactContent {
