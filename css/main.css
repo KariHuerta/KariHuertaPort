@@ -210,6 +210,10 @@ h5 {
 	font-size: 11pt;
 }
 
+table#skillsList {
+	max-width: 90%;
+}
+
 th.detailHeader {
 	background-color: #06194C;
 	color: #ffffff;
@@ -247,18 +251,37 @@ div.aboutMeDetails p {
 	max-width: 90%;
 }
 
+div#educationDetails p:first-of-type,div#educationDetails p:nth-of-type(3) {
+	margin: 0;
+	border-radius: 0;
+}
+
+span.bold {
+	font-weight: bold;
+}
+
 /* Projects */
 section#projects {
 	display: flex;
 	flex-direction: row;
 	background-color: #ffffff;
+	width: 100%;
+}
+
+section#projects div.image {
+	width: 10%;
+}
+
+section#projects div.projectDetails {
+	width: 80%;
+	color: #06194C;
 }
 
 section#projects ul {
 	display: flex;
 	flex-direction: row;
 	list-style-type: none;
-	width: 90%;
+	width: 100%;
 }
 
 section#projects ul li {
@@ -279,16 +302,12 @@ div.projectDet {
 	align-items: center;
 }
 
-iv.projectDet p {
-	margin: 0;
+div.projectDet p {
+	max-width: 60%;
 }
 
 div.projectDet img {
-	max-width: 80%;
-}
-
-img[alt="dashboard"] {
-	max-height: 650px;
+	width: 60%;
 }
 
 /* Contact */
