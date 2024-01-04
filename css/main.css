@@ -162,25 +162,29 @@ section.container {
 	display: flex;
 	flex-direction: row;
 	margin-top: 20px;
+	background-color: #ffffff;
+	align-items: top;
 }
 
 section.container div.separate {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: top;
+	height: 100%;
 }
 
 section.container div.separate:first-of-type {
 	display: block;
-	margin: auto;
+	margin-right: 2%;
+	margin-left: 2%;
 }
 
 section.container div.separate:nth-of-type(2) {
 	width: 30%;
-	margin: auto;
 	margin-left: 0;
 	margin-right: 0;
+	justify-content: center;
 }
 
 img[alt="linkedInPhoto"] {
@@ -229,6 +233,8 @@ div.aboutMeDetails h3 {
 	margin-top: 0;
 	margin-bottom: 0;
 	font-weight: normal;
+	border: 1px solid #06194C;
+	max-width: 90%;
 }
 
 div.aboutMeDetails p {
@@ -238,6 +244,7 @@ div.aboutMeDetails p {
 	color: #06194C;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
+	max-width: 90%;
 }
 
 /* Projects */
