@@ -258,6 +258,8 @@ section#projects ul li {
 	text-align: center;
 	background-color: #06194C;
 	color: #ffffff;
+	border-radius: 5px;
+	margin: 0.5%;
 }
 
 div.projectDet {
