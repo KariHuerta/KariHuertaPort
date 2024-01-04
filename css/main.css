@@ -110,15 +110,15 @@ section#home {
 }
 
 section#aboutMe {
-	background: url(../img/IMG_1531.JPG) no-repeat center center ;
+	background: url(../img/Img_1522.JPG) no-repeat center right;
 }
 
 section#gallery {
-	background: url(../img/IMG_1529.JPG) no-repeat top right ;
+	background: url(../img/Img_1522.JPG) no-repeat bottom center ;
 }
 
 section#contact {
-	background: url(../img/IMG_1524.JPG) no-repeat center center ;
+	background: url(../img/Img_1522.JPG) no-repeat bottom left ;
 }
 
 section.main div.transparent {
