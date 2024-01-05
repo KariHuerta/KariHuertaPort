@@ -85,6 +85,7 @@ nav > ul > li {
 	font-size: 14px;
 	display: block;
 	font-weight: bold;
+	background-color: #ffffff;
 }
 
 nav > ul > li a {
@@ -101,6 +102,12 @@ nav > ul > li:hover {
 
 nav > ul > li.selected {
 	font-style: italic;
+}
+
+nav li#navButton {
+	color: #06194C;
+	font-size: 18px;
+	display: none;
 }
 
 /*Section Main */
@@ -123,7 +130,7 @@ section#gallery {
 }
 
 section#contact {
-	background: url(../img/Img_1522.jpg) no-repeat bottom right ;
+	background: url(../img/Img_1522.jpg) no-repeat bottom left ;
 }
 
 section.main div.transparent {
@@ -356,3 +363,25 @@ div.container div {
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 }
+
+/*
+@media(max-width: 800px) {
+	nav ul {
+		flex-direction: column;
+	}
+	
+	nav ul li.nav {
+		display: none;
+		width: 100%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	
+	nav li#navButton {
+		display: block;
+	}
+	
+	nav li#navButton:hover + li {
+		display: block;
+	}
+}*/
